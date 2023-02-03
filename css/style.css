@@ -412,6 +412,7 @@ img {
 
 .portfolio-main-project-items {
   border: 1px solid #e7e9fc;
+  max-width: 360px;
 }
 
 .portfolio-main-project-img {
