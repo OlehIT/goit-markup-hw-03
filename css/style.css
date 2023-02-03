@@ -77,6 +77,7 @@ img {
 .header-nav {
   display: flex;
 }
+
 .header-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -87,15 +88,19 @@ img {
   color: inherit;
   margin-right: 76px;
 }
+
 .header-span {
   color: var(--primary-brand-color);
 }
+
 .header-nav-list {
   display: flex;
   gap: 40px;
 }
+
 .header-nav-item {
 }
+
 .header-nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -117,12 +122,15 @@ img {
 .header-address {
   margin-left: auto;
 }
+
 .header-address-list {
   display: flex;
 }
+
 .header-address-item:not(:last-child) {
   margin-right: 40px;
 }
+
 .header-address-link {
   font-style: normal;
   font-size: 16px;
@@ -198,13 +206,16 @@ img {
 .container-slills {
   display: flex;
 }
+
 .skills-list {
   display: flex;
   gap: 24px;
 }
+
 .skills-item {
   width: 264px;
 }
+
 .skills-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -212,6 +223,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
 .skills-item-text {
   font-size: 16px;
   line-height: 1.5;
@@ -227,6 +239,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .work-title {
   font-size: 36px;
   line-height: 1.11;
@@ -236,13 +249,16 @@ img {
   color: inherit;
   margin-bottom: 72px;
 }
+
 .work-list {
   display: flex;
   gap: 24px;
 }
+
 .work-item {
   width: calc((100% - 48px) / 3);
 }
+
 .work-img {
 }
 
@@ -270,6 +286,7 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .team-item {
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -287,6 +304,7 @@ img {
 
 .team-img {
 }
+
 .team-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -295,6 +313,7 @@ img {
   color: inherit;
   margin-bottom: 8px;
 }
+
 .team-item-text {
   font-size: 16px;
   line-height: 1.5;
@@ -313,6 +332,7 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -322,9 +342,11 @@ img {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .footer-span {
   color: var(--primary-brand-color);
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -346,16 +368,20 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .portfolio-main-section {
 }
+
 .portfolio-main-list-filter {
   padding-bottom: 72px;
   display: flex;
   justify-content: center;
   gap: 24px;
 }
+
 .portfolio-main-filter-item {
 }
+
 .portfolio-main-filter-btn {
   background-color: var(--filter-background-color);
   font-weight: 500;
@@ -369,21 +395,25 @@ img {
   border-radius: 4px;
   padding: 12px 24px;
 }
+
 .portfolio-main-filter-btn:is(:hover, :focus) {
   background-color: var(--active-filter-background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
 }
+
 .portfolio-main-project-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
 }
+
 .portfolio-main-project-items {
   border: 1px solid #e7e9fc;
 }
+
 .portfolio-main-project-img {
 }
 
@@ -399,6 +429,7 @@ img {
   color: inherit;
   margin-bottom: 8px;
 }
+
 .portfolio-main-project-text {
   font-size: 16px;
   line-height: 1.5;
